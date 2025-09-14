@@ -34,6 +34,7 @@
 <img width="1324" height="901" alt="{3B6A4E1E-4E7B-4593-8432-09BF9A04439A}" src="https://github.com/user-attachments/assets/3c7592a2-23b2-4255-816d-cfca667ed7e0" />
 <img width="1516" height="760" alt="{C79CBA4B-953F-4CD0-8700-2909D01F308D}" src="https://github.com/user-attachments/assets/4b442241-332f-4fba-883f-d036e25fd18f" />
 <img width="479" height="275" alt="{F3797D19-E0BF-4100-8C8B-4CBA164A4657}" src="https://github.com/user-attachments/assets/3fc22ead-7fa1-461b-baba-0f5765fc4f43" />
+<img width="736" height="76" alt="{9B65DF2C-4AB3-47B2-82D1-15244FBF2E4D}" src="https://github.com/user-attachments/assets/817ac814-4f54-4ba1-a590-14c4f5093009" />
 
 
 
@@ -66,7 +67,9 @@
 |------------------|------------|----------------|
 | Login สำเร็จโดยไม่ตรวจสอบรหัสผ่าน | | ⚪ สำเร็จ ⚪ ล้มเหลว |
 
-**Screenshot หลักฐาน:** (แนบ screenshot ตรงนี้)
+**Screenshot หลักฐาน:** (<img width="732" height="84" alt="{FBA80C7F-D426-49E5-9906-AA637415885C}" src="https://github.com/user-attachments/assets/c3d113a8-f434-45f0-a70b-877633630194" />
+<img width="588" height="491" alt="{C8EA5E63-93E6-4BF2-8195-7113239FD62C}" src="https://github.com/user-attachments/assets/37cdc051-35c4-47d0-b9bc-20865c6f1981" />
+)
 
 **วิเคราะห์และความคิดเห็น:**
 ```
