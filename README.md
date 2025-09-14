@@ -167,12 +167,9 @@ sql SELECT * FROM Users WHERE username='admin'; --' AND password='1'
 
 | User ID | ข้อมูลที่แสดง | สามารถเข้าถึงได้ |
 |---------|---------------|------------------|
-| 1 |<img width="227" height="147" alt="{52E79B82-5880-42A8-BE5D-2F727E0039C3}" src="https://github.com/user-attachments/assets/6847895f-42b2-407f-be42-f104909b91a4" />
- | ⚪ ใช่ |
-| 2 |<img width="218" height="162" alt="{DFB2547A-1264-4AE1-AFDB-0EED82EDE9DC}" src="https://github.com/user-attachments/assets/416a28ec-0208-44ad-873e-fbd33d5a82a8" />
- | ⚪ ใช่ |
-| 3 |<img width="211" height="153" alt="{30DD13A6-FE4D-4063-9219-408ED4134355}" src="https://github.com/user-attachments/assets/89394cd8-d897-4e66-adcf-091150cd4d76" />
- | ⚪ ใช่ |
+| 1 |<img width="227" height="147" alt="{52E79B82-5880-42A8-BE5D-2F727E0039C3}" src="https://github.com/user-attachments/assets/6847895f-42b2-407f-be42-f104909b91a4" />| ⚪ ใช่ |
+| 2 |<img width="218" height="162" alt="{DFB2547A-1264-4AE1-AFDB-0EED82EDE9DC}" src="https://github.com/user-attachments/assets/416a28ec-0208-44ad-873e-fbd33d5a82a8" />| ⚪ ใช่ |
+| 3 |<img width="211" height="153" alt="{30DD13A6-FE4D-4063-9219-408ED4134355}" src="https://github.com/user-attachments/assets/89394cd8-d897-4e66-adcf-091150cd4d76" />| ⚪ ใช่ |
 
 <img width="969" height="835" alt="{69FF6FC0-E035-4ABF-9550-875C391D17E8}" src="https://github.com/user-attachments/assets/06ec314f-1543-464e-9186-a9ef94cac161" />
 <img width="978" height="667" alt="{F4A5B785-10C7-4BB6-8A40-89B3A7D66D51}" src="https://github.com/user-attachments/assets/c7c979f4-563c-4709-a5cd-71cab66f0d96" />
