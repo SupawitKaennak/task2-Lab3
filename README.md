@@ -571,7 +571,7 @@ Admin: สามารถเข้าถึงข้อมูลโปรไฟ�
 ### C. เอกสารอ้างอิง
 - OWASP Top 10: https://owasp.org/Top10/
 - Security Testing Guide: https://owasp.org/www-project-web-security-testing-guide/
-- Lab Materials: [ระบุแหล่งที่มา]
+- Lab Materials: [https://github.com/se-rmutl/ENGSE214/blob/main/Labs/lab3/README.md]
 
 ---
 
