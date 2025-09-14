@@ -240,12 +240,9 @@ sql SELECT * FROM Users WHERE username='admin'; --' AND password='1'
 
 | Payload | ผลลัพธ์ที่แสดง | Script Execute หรือไม่ |
 |---------|----------------|----------------------|
-| `<script>alert('XSS')</script>` |<img width="767" height="613" alt="{F687B435-0B99-4170-B1AC-39C69A86068A}" src="https://github.com/user-attachments/assets/8c371be3-6239-4de8-a1a8-9e7aaa185dca" />
- | ⚪ ไม่ |
-| `<img src=x onerror=alert('XSS')>` |<img width="764" height="622" alt="{8FE25B0A-B611-413C-A45F-F0A10FBA0010}" src="https://github.com/user-attachments/assets/9c64cbec-5d1f-4c50-ab30-bc5aeae41b2f" />
- | ⚪ ไม่ |
-| `<svg onload=alert('XSS')>` |<img width="746" height="601" alt="{C01160FC-B69D-44BD-B700-EE73D96DAD92}" src="https://github.com/user-attachments/assets/d18a6b23-2945-4d7a-9840-f13c60e516de" />
- | ⚪ ไม่ |
+| `<script>alert('XSS')</script>` |<img width="767" height="613" alt="{F687B435-0B99-4170-B1AC-39C69A86068A}" src="https://github.com/user-attachments/assets/8c371be3-6239-4de8-a1a8-9e7aaa185dca" />| ⚪ ไม่ |
+| `<img src=x onerror=alert('XSS')>` |<img width="764" height="622" alt="{8FE25B0A-B611-413C-A45F-F0A10FBA0010}" src="https://github.com/user-attachments/assets/9c64cbec-5d1f-4c50-ab30-bc5aeae41b2f" />| ⚪ ไม่ |
+| `<svg onload=alert('XSS')>` |<img width="746" height="601" alt="{C01160FC-B69D-44BD-B700-EE73D96DAD92}" src="https://github.com/user-attachments/assets/d18a6b23-2945-4d7a-9840-f13c60e516de" />| ⚪ ไม่ |
 <img width="898" height="533" alt="{B95AD9F6-6B3A-4919-83DD-F4C9EEA4272E}" src="https://github.com/user-attachments/assets/a7162a67-d3b8-4d50-859c-62212ed485d2" />
 
 
