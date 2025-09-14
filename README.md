@@ -93,22 +93,22 @@ sql SELECT * FROM Users WHERE username='admin'; --' AND password='1'
 
 | ผลลัพธ์ที่คาดหวัง | ผลลัพธ์จริง | สำเร็จ/ล้มเหลว |
 |------------------|------------|----------------|
-| แสดงข้อมูลผู้ใช้และรหัสผ่าน | | ⚪ สำเร็จ ⚪ ล้มเหลว |
+| แสดงข้อมูลผู้ใช้และรหัสผ่าน | ไม่มีข้อมูลแสดงออกมา |⚪ ล้มเหลว |
 
 **ข้อมูลที่ได้รับ:**
 ```
-บันทึกข้อมูลผู้ใช้ที่แสดงออกมา (ถ้ามี):
-- ชื่อผู้ใช้:
-- รหัสผ่าน:
-- อื่นๆ:
+<img width="803" height="135" alt="{654C4B86-8927-48C0-8030-6D6A834F2B7D}" src="https://github.com/user-attachments/assets/d9903d2f-8899-491f-adcd-cc6f7525b721" />
+
+<img width="1030" height="181" alt="{A3F012E4-5534-4AE7-B430-B4BE07F5C539}" src="https://github.com/user-attachments/assets/6ef12361-801f-45b1-a0f2-8e57a2d277eb" />
+
 ```
 
 **วิเคราะห์และความคิดเห็น:**
 ```
-บันทึกการวิเคราะห์:
-- ข้อมูลอะไรบ้างที่สามารถเข้าถึงได้
-- ผลกระทบต่อความปลอดภัย
-- วิธีการที่ผู้ไม่ประสงค์ดีอาจใช้ประโยชน์
+<img width="1002" height="181" alt="{71186AA9-2650-4190-A0DA-F75DBDCC01DE}" src="https://github.com/user-attachments/assets/ca851656-f1d7-487a-8564-eb94782973b0" />
+
+<img width="1028" height="172" alt="{54181EDD-7CED-4351-ABAD-E442C1155F45}" src="https://github.com/user-attachments/assets/5cc1ab98-6fae-4ca6-92ff-cddb596ad7ce" />
+
 ```
 
 ---
