@@ -180,19 +180,24 @@ sql SELECT * FROM Users WHERE username='admin'; --' AND password='1'
 
 **วิเคราะห์และความคิดเห็น:**
 ```
-วิเคราะห์ปัญหา IDOR:
-- ข้อมูลอะไรบ้างที่เข้าถึงได้
-- ความเสี่ยงด้านความเป็นส่วนตัว
-- วิธีการที่ผู้โจมตีอาจใช้ช่องโหว่นี้
+ข้อมูลที่เข้าถึงได้:
+   ผู้โจมตีสามารถดูข้อมูลส่วนตัวของผู้ใช้คนอื่น เช่น ID, username, email, password, role, วันที่สร้างบัญชี
+ความเสี่ยงด้านความเป็นส่วนตัว:
+   ข้อมูลสำคัญ (เช่น email, password) รั่วไหล อาจถูกนำไปใช้โจมตีหรือแอบอ้างตัวตน
+วิธีการโจมตี:
+   ผู้โจมตีเปลี่ยนค่า User ID ในช่อง input เพื่อดูข้อมูลของผู้ใช้คนอื่นโดยไม่ต้องมีสิทธิ์
 ```
 
 ---
 
 ## Part 2: การทดสอบ Secure Version
+<img width="1079" height="340" alt="{95154EEA-1DE5-40E6-88FD-A0A067F021AA}" src="https://github.com/user-attachments/assets/80d78b7d-5829-4639-a29b-83722395b832" />
 
 ### Test Case 2.1: SQL Injection Protection
 
 **วัตถุประสงค์:** ทดสอบการป้องกัน SQL Injection
+
+![Uploading {95154EEA-1DE5-40E6-88FD-A0A067F021AA}.png…]()
 
 **ขั้นตอนการทดสอบ:**
 1. เปิด `secure.html` (Secure Version)
