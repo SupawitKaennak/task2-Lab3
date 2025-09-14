@@ -188,7 +188,6 @@ sql SELECT * FROM Users WHERE username='admin'; --' AND password='1'
 ---
 
 ## Part 2: การทดสอบ Secure Version
-<img width="1079" height="340" alt="{95154EEA-1DE5-40E6-88FD-A0A067F021AA}" src="https://github.com/user-attachments/assets/80d78b7d-5829-4639-a29b-83722395b832" />
 
 ### Test Case 2.1: SQL Injection Protection
 
