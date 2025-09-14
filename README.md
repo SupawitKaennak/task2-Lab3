@@ -576,10 +576,16 @@ Admin: สามารถเข้าถึงข้อมูลโปรไฟ�
 ## ภาคผนวก
 
 ### A. Screenshots หลักฐาน
-*(แนบ screenshots ของการทดสอบแต่ละขั้นตอน)*
+*(ใส่ตามข้อไปแล้วครับ)*
 
 ### B. Code Snippets ที่สำคัญ
-*(แนบโค้ดส่วนที่สำคัญที่พบว่าเป็นช่องโหว่หรือการป้องกัน)*
+*(<img width="756" height="359" alt="{8D346B8D-F888-4AFF-83D2-33B4EF931A8B}" src="https://github.com/user-attachments/assets/e76d96dc-2ce5-4f26-94c1-973480f8c145" />
+<img width="810" height="534" alt="{7189245C-306D-4E5A-9C32-2C569B2BE896}" src="https://github.com/user-attachments/assets/4095a1f1-5bd7-4b66-8f4d-225120cf90bc" />
+<img width="776" height="336" alt="{333E165C-C729-4F01-8E83-F1E99BC0027D}" src="https://github.com/user-attachments/assets/58e71f78-b4b4-4f8d-aaa1-becf830a172f" />
+<img width="849" height="596" alt="{3E32D010-F59F-416C-96BB-417663A18487}" src="https://github.com/user-attachments/assets/9e13fe78-4f51-4f05-b6b5-89e7654ca34e" />
+<img width="761" height="410" alt="{6CF592F5-CDFF-42B4-80C4-4BE838C0F82D}" src="https://github.com/user-attachments/assets/22ba3d75-5f60-4b30-8ee2-0e42bad540a9" />
+<img width="830" height="569" alt="{F12BE28C-E112-49ED-BA7F-F4655DD1BD74}" src="https://github.com/user-attachments/assets/64514d62-8929-4172-a7a4-ef84ca1778f7" />
+)*
 
 ### C. เอกสารอ้างอิง
 - OWASP Top 10: https://owasp.org/Top10/
