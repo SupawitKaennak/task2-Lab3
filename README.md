@@ -31,6 +31,7 @@
 - [✅] เครื่องมือทดสอบ (Browser Developer Tools) พร้อมใช้
 <img width="1053" height="244" alt="{3F1D77FD-79B3-4A24-B61B-11D63DEAC771}" src="https://github.com/user-attachments/assets/64db83c3-255e-4202-af04-d73398a143d5" />
 <img width="952" height="482" alt="{B723266D-B58D-4893-9AF9-14B2DFB64078}" src="https://github.com/user-attachments/assets/1a60e5f0-5a72-45a5-adad-735e20ae8d28" />
+<img width="1324" height="901" alt="{3B6A4E1E-4E7B-4593-8432-09BF9A04439A}" src="https://github.com/user-attachments/assets/3c7592a2-23b2-4255-816d-cfca667ed7e0" />
 
 
 
