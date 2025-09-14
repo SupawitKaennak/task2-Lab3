@@ -65,7 +65,7 @@
 
 | ผลลัพธ์ที่คาดหวัง | ผลลัพธ์จริง | สำเร็จ/ล้มเหลว |
 |------------------|------------|----------------|
-| Login สำเร็จโดยไม่ตรวจสอบรหัสผ่าน | | ⚪ สำเร็จ |
+| Login สำเร็จโดยไม่ตรวจสอบรหัสผ่าน | สามารถ login ได้จริงๆ | ⚪ สำเร็จ |
 
 **Screenshot หลักฐาน:** (<img width="732" height="84" alt="{FBA80C7F-D426-49E5-9906-AA637415885C}" src="https://github.com/user-attachments/assets/c3d113a8-f434-45f0-a70b-877633630194" />
 <img width="588" height="491" alt="{C8EA5E63-93E6-4BF2-8195-7113239FD62C}" src="https://github.com/user-attachments/assets/37cdc051-35c4-47d0-b9bc-20865c6f1981" />
