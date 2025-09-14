@@ -35,6 +35,7 @@
 <img width="1516" height="760" alt="{C79CBA4B-953F-4CD0-8700-2909D01F308D}" src="https://github.com/user-attachments/assets/4b442241-332f-4fba-883f-d036e25fd18f" />
 <img width="479" height="275" alt="{F3797D19-E0BF-4100-8C8B-4CBA164A4657}" src="https://github.com/user-attachments/assets/3fc22ead-7fa1-461b-baba-0f5765fc4f43" />
 <img width="736" height="76" alt="{9B65DF2C-4AB3-47B2-82D1-15244FBF2E4D}" src="https://github.com/user-attachments/assets/817ac814-4f54-4ba1-a590-14c4f5093009" />
+<img width="999" height="1074" alt="{047CF803-D35D-4825-9348-60BDD9E37997}" src="https://github.com/user-attachments/assets/94063b97-260d-4e67-a79f-5f9f8b45e2cb" />
 
 
 
@@ -127,25 +128,28 @@ sql SELECT * FROM Users WHERE username='admin'; --' AND password='1'
 
 | ผลลัพธ์ที่คาดหวัง | ผลลัพธ์จริง | สำเร็จ/ล้มเหลว |
 |------------------|------------|----------------|
-| JavaScript execute และแสดง alert | | ⚪ สำเร็จ ⚪ ล้มเหลว |
+| JavaScript execute และแสดง alert | | ⚪ ล้มเหลว |
 
 **ทดสอบ XSS เพิ่มเติม:**
 
 **Test 1.3.1:** Cookie Stealing Simulation
 - Payload: `<script>alert('Cookie: ' + document.cookie);</script>`
-- ผลลัพธ์: ________________________________
+- ผลลัพธ์: ไม่มีอะไรเกิดขึ้น
+- <img width="993" height="898" alt="{96250989-3820-4567-A2FF-806784EBB84A}" src="https://github.com/user-attachments/assets/46b28fe1-bed6-4d52-b2bc-2b6185a77b88" />
+
 
 **Test 1.3.2:** DOM Manipulation
 - Payload: `<img src=x onerror=alert('XSS via IMG tag')>`
-- ผลลัพธ์: ________________________________
+- ผลลัพธ์: ไม่มีอะไรเกิดขึ้น
+- <img width="973" height="886" alt="{8E9451C5-8125-4322-92FA-2E731E12B19C}" src="https://github.com/user-attachments/assets/91204a03-31f2-4e70-8f68-227d410393ce" />
+
 
 **วิเคราะห์และความคิดเห็น:**
 ```
-วิเคราะห์ความเสี่ยงจาก XSS:
-- ความสามารถในการขโมย session/cookie
-- การ redirect ผู้ใช้ไปยังเว็บไซต์ปลอม
-- การแก้ไขเนื้อหาเว็บไซต์
-- ผลกระทบต่อผู้ใช้คนอื่น
+โค้ดนี้ใช้ <script> หรือ <img onerror=...> แล้ว "ไม่เกิด alert"
+   อาจเป็นเพราะ เบราว์เซอร์หรือ framework มีการกรองอัตโนมัติ (เช่น Chrome มีบางส่วน)
+ส่วนแสดงผล comment ใน script.js มีการ escape หรือ sanitize ข้อมูลก่อนแสดงผล
+หรืออาจยังไม่ได้แสดง comment ที่โพสต์ใหม่ทันที
 ```
 
 ---
@@ -164,9 +168,16 @@ sql SELECT * FROM Users WHERE username='admin'; --' AND password='1'
 
 | User ID | ข้อมูลที่แสดง | สามารถเข้าถึงได้ |
 |---------|---------------|------------------|
-| 1 | | ⚪ ใช่ ⚪ ไม่ |
-| 2 | | ⚪ ใช่ ⚪ ไม่ |
-| 3 | | ⚪ ใช่ ⚪ ไม่ |
+| 1 |<img width="227" height="147" alt="{52E79B82-5880-42A8-BE5D-2F727E0039C3}" src="https://github.com/user-attachments/assets/6847895f-42b2-407f-be42-f104909b91a4" />
+ | ⚪ ใช่ |
+| 2 |<img width="218" height="162" alt="{DFB2547A-1264-4AE1-AFDB-0EED82EDE9DC}" src="https://github.com/user-attachments/assets/416a28ec-0208-44ad-873e-fbd33d5a82a8" />
+ | ⚪ ใช่ |
+| 3 |<img width="211" height="153" alt="{30DD13A6-FE4D-4063-9219-408ED4134355}" src="https://github.com/user-attachments/assets/89394cd8-d897-4e66-adcf-091150cd4d76" />
+ | ⚪ ใช่ |
+
+<img width="969" height="835" alt="{69FF6FC0-E035-4ABF-9550-875C391D17E8}" src="https://github.com/user-attachments/assets/06ec314f-1543-464e-9186-a9ef94cac161" />
+<img width="978" height="667" alt="{F4A5B785-10C7-4BB6-8A40-89B3A7D66D51}" src="https://github.com/user-attachments/assets/c7c979f4-563c-4709-a5cd-71cab66f0d96" />
+
 
 **วิเคราะห์และความคิดเห็น:**
 ```
