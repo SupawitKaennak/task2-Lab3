@@ -362,15 +362,9 @@ Admin: สามารถเข้าถึงข้อมูลโปรไฟ�
 
 | การทดสอบ | URL/Action | ผลลัพธ์ | HTTP Status |
 |----------|------------|---------|-------------|
-| No token | /comments POST | <img width="1325" height="699" alt="{620C29F9-F090-4E6C-83AC-8DC9E51005F2}" src="https://github.com/user-attachments/assets/60d3beeb-a10a-425f-a95e-ea2e8081ddcb" />
- | <img width="949" height="206" alt="{F2B233A5-B6A8-4F63-859E-CE6C975751C0}" src="https://github.com/user-attachments/assets/b3293237-2ce6-475f-9455-f2d64cf16663" />
- |
-| Invalid token | /user/1 GET | <img width="1295" height="697" alt="{AF11C456-7146-4671-BD4B-78CB7961D98C}" src="https://github.com/user-attachments/assets/34a14c14-ada8-4c3c-baf9-3f91bb03796c" />
- | <img width="401" height="143" alt="{207AF374-5B42-4D1B-AF46-54946DDFB274}" src="https://github.com/user-attachments/assets/99fd5814-9821-4d90-b541-5e053f79782b" />
- |
-| Expired token | /admin/users | <img width="1282" height="700" alt="{F7EC18CC-E2B6-4803-AC16-8BF4EC502EB0}" src="https://github.com/user-attachments/assets/d71439ff-638f-42d7-90c8-77a1b607ae77" />
- | <img width="434" height="176" alt="{738B48FD-2285-4C96-B17C-2B665049A4CB}" src="https://github.com/user-attachments/assets/bcc17891-fc7e-4a3a-a55b-2924902a60d5" />
- |
+| No token | /comments POST | <img width="1325" height="699" alt="{620C29F9-F090-4E6C-83AC-8DC9E51005F2}" src="https://github.com/user-attachments/assets/60d3beeb-a10a-425f-a95e-ea2e8081ddcb" />| <img width="949" height="206" alt="{F2B233A5-B6A8-4F63-859E-CE6C975751C0}" src="https://github.com/user-attachments/assets/b3293237-2ce6-475f-9455-f2d64cf16663" />|
+| Invalid token | /user/1 GET | <img width="1295" height="697" alt="{AF11C456-7146-4671-BD4B-78CB7961D98C}" src="https://github.com/user-attachments/assets/34a14c14-ada8-4c3c-baf9-3f91bb03796c" />| <img width="401" height="143" alt="{207AF374-5B42-4D1B-AF46-54946DDFB274}" src="https://github.com/user-attachments/assets/99fd5814-9821-4d90-b541-5e053f79782b" />|
+| Expired token | /admin/users | <img width="1282" height="700" alt="{F7EC18CC-E2B6-4803-AC16-8BF4EC502EB0}" src="https://github.com/user-attachments/assets/d71439ff-638f-42d7-90c8-77a1b607ae77" />| <img width="434" height="176" alt="{738B48FD-2285-4C96-B17C-2B665049A4CB}" src="https://github.com/user-attachments/assets/bcc17891-fc7e-4a3a-a55b-2924902a60d5" />|
 
 **วิเคราะห์และความคิดเห็น:**
 ```
