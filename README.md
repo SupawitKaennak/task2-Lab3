@@ -97,9 +97,9 @@ sql SELECT * FROM Users WHERE username='admin'; --' AND password='1'
 | แสดงข้อมูลผู้ใช้และรหัสผ่าน | ไม่มีข้อมูลแสดงออกมา |⚪ ล้มเหลว |
 
 **ข้อมูลที่ได้รับ:**
-<img width="803" height="135" alt="{654C4B86-8927-48C0-8030-6D6A834F2B7D}" src="https://github.com/user-attachments/assets/d9903d2f-8899-491f-adcd-cc6f7525b721" />
-
 <img width="1030" height="181" alt="{A3F012E4-5534-4AE7-B430-B4BE07F5C539}" src="https://github.com/user-attachments/assets/6ef12361-801f-45b1-a0f2-8e57a2d277eb" />
+
+<img width="803" height="135" alt="{654C4B86-8927-48C0-8030-6D6A834F2B7D}" src="https://github.com/user-attachments/assets/d9903d2f-8899-491f-adcd-cc6f7525b721" />
 
 <img width="1002" height="181" alt="{71186AA9-2650-4190-A0DA-F75DBDCC01DE}" src="https://github.com/user-attachments/assets/ca851656-f1d7-487a-8564-eb94782973b0" />
 
@@ -107,7 +107,7 @@ sql SELECT * FROM Users WHERE username='admin'; --' AND password='1'
 
 **วิเคราะห์และความคิดเห็น:**
 ```
-
+ไม่แน่ใจว่าเป้นที่อะไรครับ แต่ไม่สามารถ ดูข้อม฿ลได้
 
 ```
 
