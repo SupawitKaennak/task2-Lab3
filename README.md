@@ -29,8 +29,10 @@
 - [✅] Secure Server (port 3001) ทำงานได้
 - [✅] Frontend files เปิดได้ในเบราว์เซอร์
 - [✅] เครื่องมือทดสอบ (Browser Developer Tools) พร้อมใช้
+<img width="1053" height="244" alt="{3F1D77FD-79B3-4A24-B61B-11D63DEAC771}" src="https://github.com/user-attachments/assets/64db83c3-255e-4202-af04-d73398a143d5" />
+<img width="952" height="482" alt="{B723266D-B58D-4893-9AF9-14B2DFB64078}" src="https://github.com/user-attachments/assets/1a60e5f0-5a72-45a5-adad-735e20ae8d28" />
 
-![alt text]({B88338EA-F026-4123-9C02-ED6E6371292C}.png)
+
 
 ### 📋 ข้อมูลระบบ
 | รายการ | Vulnerable Version | Secure Version |
