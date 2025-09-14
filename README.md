@@ -278,15 +278,9 @@ Secure Version (secure-server.js): ก่อนบันทึกข้อมู
 
 | User Account | Target User ID | สามารถเข้าถึงได้ | Error Message |
 |--------------|----------------|-------------------|---------------|
-| john (user) | <img width="325" height="161" alt="{6046AEA3-C03B-493D-A61E-670F42C9CCE5}" src="https://github.com/user-attachments/assets/1c5a5a89-d5a6-490f-be8b-91fbb1be902a" />
- | ⚪ ใช่  |<img width="811" height="107" alt="{BA109E54-05FE-4EEB-A78A-C8D20783AC27}" src="https://github.com/user-attachments/assets/e86bcfcd-b503-45bc-852a-570303160a33" />
- |
-| john (user) | <img width="325" height="161" alt="{6046AEA3-C03B-493D-A61E-670F42C9CCE5}" src="https://github.com/user-attachments/assets/0ec6006d-591f-4031-9960-a5fc00efab11" />
- | ⚪ ใช่  | <img width="815" height="108" alt="{9223F4E0-222D-4AAE-9347-5C33506C9DBD}" src="https://github.com/user-attachments/assets/b85af208-0130-4fdb-8fb8-d40d924a5257" />
-|
-| admin | <img width="228" height="78" alt="{5FBBD2B7-2FAC-44BA-9543-AD0D581FA35C}" src="https://github.com/user-attachments/assets/fd80eb17-e946-4692-8021-9cb07a0ec9ad" />
- | ⚪ ไม่ |<img width="352" height="40" alt="{A26A50DE-C44C-46A9-8F61-736E35B5A29C}" src="https://github.com/user-attachments/assets/3efb68e3-7264-4ef9-aec4-b11d578bd7a8" />
- |
+| john (user) | <img width="325" height="161" alt="{6046AEA3-C03B-493D-A61E-670F42C9CCE5}" src="https://github.com/user-attachments/assets/1c5a5a89-d5a6-490f-be8b-91fbb1be902a" />| ⚪ ใช่  |<img width="811" height="107" alt="{BA109E54-05FE-4EEB-A78A-C8D20783AC27}" src="https://github.com/user-attachments/assets/e86bcfcd-b503-45bc-852a-570303160a33" />|
+| john (user) | <img width="325" height="161" alt="{6046AEA3-C03B-493D-A61E-670F42C9CCE5}" src="https://github.com/user-attachments/assets/0ec6006d-591f-4031-9960-a5fc00efab11" />| ⚪ ใช่  | <img width="815" height="108" alt="{9223F4E0-222D-4AAE-9347-5C33506C9DBD}" src="https://github.com/user-attachments/assets/b85af208-0130-4fdb-8fb8-d40d924a5257" />|
+| admin | <img width="228" height="78" alt="{5FBBD2B7-2FAC-44BA-9543-AD0D581FA35C}" src="https://github.com/user-attachments/assets/fd80eb17-e946-4692-8021-9cb07a0ec9ad" />| ⚪ ไม่ |<img width="352" height="40" alt="{A26A50DE-C44C-46A9-8F61-736E35B5A29C}" src="https://github.com/user-attachments/assets/3efb68e3-7264-4ef9-aec4-b11d578bd7a8" />|
 
 **วิธีการป้องกันที่สังเกตได้:**
 - [✅] JWT token validation
